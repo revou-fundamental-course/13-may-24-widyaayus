@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Kalkulator Matematik Segitiga</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="headers">Welcome to Katik</h1>
+            <section class="headers">
+                <p>Hai Sobat, Selamat datang di Katik :]</p>
+                <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun segitiga</p>
+            </section>           
+        </header>
+        <section>
+            <div class="luas">
+                <h3>Luas Segitiga</h3>
+            </div>
+            <button type="button" id="keliling_segitiga">
+                <h3>Keliling Segitiga</h3>
+            </button>
+        </section>
+        </br>
+        </br>
+        </br>
+        <section>
+            <div class="hitung_luas">
+                <h2>Luas Segitiga</h2>
+            </div>
+            <div class="headers">
+                <img src="./assets/segitiga.png">
+            </div>
+        </section>
+        <section>
+            <p>Rumus Luas Segitiga yaitu :</p>
+            <div class="headers">L = 1/2 x a x t</div>
+            <p>Di mana :</p>
+            <p>L = Luas</p>
+            <p>a = Panjang Alas</p>
+            <p>t = Tinggi</p>
+        </section>
+        </br>
+        <hr/>
+        </br>
+        </br>
+        <section>
+            <header class="headers">
+                <h2>Hitung Luas Segitiga</h2>
+            </header>
+            <form>
+                <input type="number" id="alas" title="Alas" placeholder="Nilai Alas" class="inputan"/>
+                </br>
+                </br>
+                <input type="number" id="tinggi" title="Tinggi" placeholder="Nilai Tinggi" class="inputan" />
+            </form>    
+            </br>
+            </br>
+            <div>
+                <div id="keterangan_luas" class="keterangan">
+                    <p id="keterangan_rumus">L = 1/2 x a x t</p>
+                    <p id="isi_variabel">L = 1/2 x a x t</p>
+                    <p id="keterangan_hasil_luas">L = 1/2 x a x t</p>
+                </div>
+                <div>
+                    <button type="button" id="button_hitung" onclick="hitung_luas()">
+                        <h3>Hitung</h3>
+                    </button>
+                    <button type="button" id="button_reset" onclick="reset_luas()">
+                        <h3>Reset</h3>
+                    </button>
+                </div>
+            </div>
+        </section>
+        </br>
+        <section>
+            <div class="hitung_luas">
+                <h2>Keliling Segitiga</h2>
+            </div>
+            <div class="headers">
+                <img src="./assets/segitiga.png">
+            </div>
+        </section>
+        <section>
+            <p>Rumus Keliling Segitiga yaitu :</p>
+            <div class="headers">K = S1 + S2 + S3</div>
+            <p>Di mana :</p>
+            <p>K = Keliling</p>
+            <p>S1 = s1</p>
+            <p>S2 = s2</p>
+            <p>S3 = a</p>
+        </section>
+        </br>
+        <hr/>
+        </br>
+        </br>
+        <section>
+            <header class="headers">
+                <h2>Hitung Keliling Segitiga</h2>
+            </header>
+            <form id="keliling">
+                <input type="number" id="s1" title="s1" placeholder="Nilai Sisi 1" class="inputan"/>
+                </br>
+                </br>
+                <input type="number" id="s2" title="s2" placeholder="Nilai Sisi 2" class="inputan" />
+                </br>
+                </br>
+                <input type="number" id="s3" title="s3" placeholder="Nilai Sisi 3" class="inputan" />
+            </form>    
+            </br>
+            </br>
+            <div>
+                <div id="keterangan_keliling" class="keterangan">
+                    <p id="keterangan_rumus">K = S1 + S2 + S3</p>
+                    <p id="isi_variabel_keliling">K = S1 + S2 + S3</p>
+                    <p id="keterangan_hasil_keliling">K = S1 + S2 + S3</p>
+                </div>
+            </div>
+                <div>
+                    <button type="button" id="button_hitung" onclick="hitung_keliling()">
+                        <h3>Hitung</h3>
+                    </button>
+                    <button type="button" id="button_reset" onclick="reset_keliling()">
+                        <h3>Reset</h3>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

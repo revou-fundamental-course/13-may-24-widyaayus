@@ -1,0 +1,72 @@
+.headers{
+    text-align: center;
+}
+
+.luas{
+    margin: 0;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#keliling_segitiga{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    color: deeppink;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0px;
+}
+
+.hitung_luas{
+    margin: 0;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.hitung_keliling{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    color: deeppink;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0px;
+}
+
+.hitung_luas_segitiga{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.inputan{
+    width: 100%;
+}
+
+#button_hitung{
+    background-color: blue;
+    color: white;
+    margin:0 auto;
+    display:block;
+}
+
+#button_reset{
+    background-color: yellow;
+    color: white;
+    margin-left:auto;
+    margin-right: 0;
+    display:block;
+}
+
+.keterangan{
+    display:none;
+}
